@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (turtle_circle) JobQueued: {'identifier': 'turtle_circle', 'dependencies': OrderedDict()}
+[0.000283] (turtle_circle) JobStarted: {'identifier': 'turtle_circle'}
+[0.008523] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'cmake'}
+[0.009512] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '/home/aniket-subudhi/ros2_ws/src/turtle_circle', '-DCMAKE_INSTALL_PREFIX=/home/aniket-subudhi/ros2_ws/install/turtle_circle'], 'cwd': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniket-subudhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aniket-subudhi', 'OLDPWD': '/home/aniket-subudhi', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin', 'NVM_INC': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/aniket-subudhi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aniket-subudhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aniket-subudhi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aniket:@/tmp/.ICE-unix/3022,unix/aniket:/tmp/.ICE-unix/3022', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df29908a_720e_48dc_9c5b_d4203d05ee40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OD9832', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'LC_ALL': 'en_US.UTF-8', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7800', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099368] (-) TimerEvent: {}
+[0.104120] (turtle_circle) StdoutLine: {'line': b'-- The C compiler identification is GNU 14.2.0\n'}
+[0.188198] (turtle_circle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 14.2.0\n'}
+[0.199503] (-) TimerEvent: {}
+[0.205891] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299621] (-) TimerEvent: {}
+[0.327814] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.352282] (turtle_circle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.352755] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.353334] (turtle_circle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.359416] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399774] (-) TimerEvent: {}
+[0.488150] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500048] (-) TimerEvent: {}
+[0.515761] (turtle_circle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.516450] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.517458] (turtle_circle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.521188] (turtle_circle) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600548] (-) TimerEvent: {}
+[0.701210] (-) TimerEvent: {}
+[0.714086] (turtle_circle) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.7") found components: Interpreter\n'}
+[0.801554] (-) TimerEvent: {}
+[0.859694] (turtle_circle) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.901945] (-) TimerEvent: {}
+[0.910674] (turtle_circle) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.927265] (turtle_circle) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.945898] (turtle_circle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.965977] (turtle_circle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002292] (-) TimerEvent: {}
+[1.055133] (turtle_circle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.057984] (turtle_circle) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.102609] (-) TimerEvent: {}
+[1.185403] (turtle_circle) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.3.1")\n'}
+[1.202741] (-) TimerEvent: {}
+[1.221930] (turtle_circle) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13")\n'}
+[1.260543] (turtle_circle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.302988] (-) TimerEvent: {}
+[1.355813] (turtle_circle) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.403129] (-) TimerEvent: {}
+[1.503565] (-) TimerEvent: {}
+[1.529338] (turtle_circle) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.545894] (turtle_circle) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.549225] (turtle_circle) StdoutLine: {'line': b'-- Build files have been written to: /home/aniket-subudhi/ros2_ws/build/turtle_circle\n'}
+[1.563237] (turtle_circle) CommandEnded: {'returncode': 0}
+[1.564054] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'build'}
+[1.564110] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aniket-subudhi/ros2_ws/build/turtle_circle', '--', '-j16', '-l16'], 'cwd': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniket-subudhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aniket-subudhi', 'OLDPWD': '/home/aniket-subudhi', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin', 'NVM_INC': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/aniket-subudhi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aniket-subudhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aniket-subudhi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aniket:@/tmp/.ICE-unix/3022,unix/aniket:/tmp/.ICE-unix/3022', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df29908a_720e_48dc_9c5b_d4203d05ee40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OD9832', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'LC_ALL': 'en_US.UTF-8', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7800', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.603730] (-) TimerEvent: {}
+[1.634951] (turtle_circle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle_node.dir/src/turtle_circle_node.cpp.o\x1b[0m\n'}
+[1.704091] (-) TimerEvent: {}
+[1.804810] (-) TimerEvent: {}
+[1.905564] (-) TimerEvent: {}
+[2.006072] (-) TimerEvent: {}
+[2.106742] (-) TimerEvent: {}
+[2.207109] (-) TimerEvent: {}
+[2.307536] (-) TimerEvent: {}
+[2.407898] (-) TimerEvent: {}
+[2.508372] (-) TimerEvent: {}
+[2.608971] (-) TimerEvent: {}
+[2.709362] (-) TimerEvent: {}
+[2.809803] (-) TimerEvent: {}
+[2.910314] (-) TimerEvent: {}
+[3.010858] (-) TimerEvent: {}
+[3.111457] (-) TimerEvent: {}
+[3.211982] (-) TimerEvent: {}
+[3.312458] (-) TimerEvent: {}
+[3.412779] (-) TimerEvent: {}
+[3.513179] (-) TimerEvent: {}
+[3.613591] (-) TimerEvent: {}
+[3.713917] (-) TimerEvent: {}
+[3.814380] (-) TimerEvent: {}
+[3.914787] (-) TimerEvent: {}
+[4.015252] (-) TimerEvent: {}
+[4.115715] (-) TimerEvent: {}
+[4.216169] (-) TimerEvent: {}
+[4.316525] (-) TimerEvent: {}
+[4.416875] (-) TimerEvent: {}
+[4.517271] (-) TimerEvent: {}
+[4.617619] (-) TimerEvent: {}
+[4.717962] (-) TimerEvent: {}
+[4.818376] (-) TimerEvent: {}
+[4.918679] (-) TimerEvent: {}
+[5.019009] (-) TimerEvent: {}
+[5.119409] (-) TimerEvent: {}
+[5.219706] (-) TimerEvent: {}
+[5.320111] (-) TimerEvent: {}
+[5.420416] (-) TimerEvent: {}
+[5.520844] (-) TimerEvent: {}
+[5.621262] (-) TimerEvent: {}
+[5.721637] (-) TimerEvent: {}
+[5.822079] (-) TimerEvent: {}
+[5.922479] (-) TimerEvent: {}
+[6.022936] (-) TimerEvent: {}
+[6.123375] (-) TimerEvent: {}
+[6.223794] (-) TimerEvent: {}
+[6.324231] (-) TimerEvent: {}
+[6.424621] (-) TimerEvent: {}
+[6.525011] (-) TimerEvent: {}
+[6.625363] (-) TimerEvent: {}
+[6.725760] (-) TimerEvent: {}
+[6.826075] (-) TimerEvent: {}
+[6.926459] (-) TimerEvent: {}
+[7.026745] (-) TimerEvent: {}
+[7.127137] (-) TimerEvent: {}
+[7.227537] (-) TimerEvent: {}
+[7.327939] (-) TimerEvent: {}
+[7.428361] (-) TimerEvent: {}
+[7.528750] (-) TimerEvent: {}
+[7.531008] (turtle_circle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_circle_node\x1b[0m\n'}
+[7.628969] (-) TimerEvent: {}
+[7.729280] (-) TimerEvent: {}
+[7.768646] (turtle_circle) StdoutLine: {'line': b'[100%] Built target turtle_circle_node\n'}
+[7.782735] (turtle_circle) CommandEnded: {'returncode': 0}
+[7.783253] (turtle_circle) JobProgress: {'identifier': 'turtle_circle', 'progress': 'install'}
+[7.794229] (turtle_circle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aniket-subudhi/ros2_ws/build/turtle_circle'], 'cwd': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aniket-subudhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aniket-subudhi', 'OLDPWD': '/home/aniket-subudhi', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin', 'NVM_INC': '/home/aniket-subudhi/.nvm/versions/node/v22.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3077', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/aniket-subudhi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aniket-subudhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aniket-subudhi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/aniket-subudhi/.nvm/versions/node/v22.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aniket:@/tmp/.ICE-unix/3022,unix/aniket:/tmp/.ICE-unix/3022', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df29908a_720e_48dc_9c5b_d4203d05ee40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OD9832', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aniket-subudhi/ros2_ws/build/turtle_circle', 'LC_ALL': 'en_US.UTF-8', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7800', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.805248] (turtle_circle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.805516] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_circle_node\n'}
+[7.806740] (turtle_circle) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aniket-subudhi/ros2_ws/install/turtle_circle/lib/turtle_circle/turtle_circle_node" to ""\n'}
+[7.807007] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/ament_index/resource_index/package_run_dependencies/turtle_circle\n'}
+[7.807407] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/ament_index/resource_index/parent_prefix_path/turtle_circle\n'}
+[7.807828] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/environment/ament_prefix_path.sh\n'}
+[7.808039] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/environment/ament_prefix_path.dsv\n'}
+[7.808197] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/environment/path.sh\n'}
+[7.808523] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/environment/path.dsv\n'}
+[7.808653] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.bash\n'}
+[7.808740] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.sh\n'}
+[7.808822] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.zsh\n'}
+[7.808902] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/local_setup.dsv\n'}
+[7.808979] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/package.dsv\n'}
+[7.809052] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/ament_index/resource_index/packages/turtle_circle\n'}
+[7.809127] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/cmake/turtle_circleConfig.cmake\n'}
+[7.809209] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/cmake/turtle_circleConfig-version.cmake\n'}
+[7.809287] (turtle_circle) StdoutLine: {'line': b'-- Installing: /home/aniket-subudhi/ros2_ws/install/turtle_circle/share/turtle_circle/package.xml\n'}
+[7.810237] (turtle_circle) CommandEnded: {'returncode': 0}
+[7.829260] (turtle_circle) JobEnded: {'identifier': 'turtle_circle', 'rc': 0}
+[7.830364] (-) TimerEvent: {}
+[7.830593] (-) EventReactorShutdown: {}
