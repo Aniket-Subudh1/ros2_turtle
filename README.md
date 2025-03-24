@@ -1,5 +1,8 @@
 # ros2_turtle
 
+cd ros2_turtle
+colcon build --packages-select turtle_circle
+
 source /opt/ros/jazzy/setup.bash  
 source ~/ros2_turtle/install/setup.bash
 
